@@ -1,0 +1,54 @@
+/* ViewOrders.css */
+
+/* Container for the orders */
+.orders-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.orders-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* List styling */
+.orders-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual order item */
+.order-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Order details */
+.order-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Highlight for important details */
+.order-item p strong {
+    color: #333;
+}
+
+/* No orders message */
+.no-orders {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+}
